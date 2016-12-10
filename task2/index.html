@@ -20,13 +20,13 @@
     </div>
     <div class="content">
       <div class="article">
-        <h2>文章一级标题</h2>
-        <h3>文章二级标题</h3>
-        <div>
+        <h1>文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <div class="article-info">
           <span>我是作者</span>
           <span>2016-12-07 12:23</span>
         </div>
-        <div>
+        <div class="article-body">
           <p>
             这是一篇长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长的文章
             <br> 换行了
@@ -44,8 +44,8 @@
       </div>
 
       <div class="article">
-        <h2>另一篇文章一级标题</h2>
-        <h3>文章二级标题</h3>
+        <h1>文章一级标题</h1>
+        <h2>文章二级标题</h2>
         <div>
           <span>我是作者</span> <span> 2016-12-07 12:23 </span>
         </div>
@@ -73,33 +73,31 @@
         </div>
       </div>
 
-      <div class="pics">
-        <div>
-          可爱的小狗
-          <br>
+      <div class="article">
+        <h1>图片</h1>
+        <div class="pic-box">
+          <div>小狗</div>
           <img src="http://barkpost-assets.s3.amazonaws.com/wp-content/uploads/2013/11/dogelog.jpg" />
         </div>
-        <div>
-          可爱的小狗
-          <br>
+        <div class="pic-box">
+          <div>小狗</div>
           <img src="http://barkpost-assets.s3.amazonaws.com/wp-content/uploads/2013/11/dogelog.jpg" />
         </div>
-        <div>
-          可爱的小狗
-          <br>
+        <div class="pic-box">
+          <div>小狗</div>
           <img src="http://barkpost-assets.s3.amazonaws.com/wp-content/uploads/2013/11/dogelog.jpg" />
         </div>
-        <div>
-          可爱的小狗
-          <br>
+        <div class="pic-box">
+          <div>小狗</div>
           <img src="http://barkpost-assets.s3.amazonaws.com/wp-content/uploads/2013/11/dogelog.jpg" />
         </div>
       </div>
 
-      <div>
-        <h2>最后一篇文章一级标题</h2>
-        <h3>文章二级标题</h3>
-        <div>
+
+      <div class="article">
+        <h1>最后一篇文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <div class="article-info">
           <span>我是作者</span>
           <span>2016-12-07 12:23</span>
         </div>
@@ -113,7 +111,7 @@
         <p>
           下面是一个表格，给表格加了一个border="1"
         </p>
-        <table border="1">
+        <table>
           <th>表头</th>
           <th>表头</th>
           <th>表头</th>
@@ -141,38 +139,49 @@
       </div>
 
     </div>
-    <div id="sidebar">
-      <h2>以后这里是一个侧栏，这是侧栏的标题</h2>
-      <h3>侧栏注册窗口标题</h3>
+    <div class="sidebar">
+      <h1>以后这里是一个侧栏，这是侧栏的标题</h1>
+      <h2>侧栏注册窗口标题</h2>
       <form>
-        <p><label>请输入邮箱地址：</label><input value="这是一个文本输入框"></p>
-        <p>邮箱地址请按要求格式输入</p>
-        <p><label>请输入密码：</label><input type="password" value="这是一个文本输入框"></p>
-        <p><label>请重复输入密码：</label><input type="password" value="这是一个文本输入框" /></p>
-        <p>密码请为6-16位英文数字</p>
-        <p>
-          <label>性别：</label><input type="radio" name="sex" value="male" checked>男
-          <input type="radio" name="sex" value="female">女
-        </p>
-        <p>
+        <div class="email"><label>请输入邮箱地址：</label>
+          <div class="right"><input value="这是一个文本输入框" /></div>
+        </div>
+        <div class="password1"><label>请输入密码：</label>
+          <div class="right"><input type="password" value="这是一个文本输入框" /></div>
+        </div>
+        <div class="password2"><label>请重复输入密码：</label>
+          <div class="right"><input type="password" value="这是一个文本输入框" /></div>
+        </div>
+        <div class="gender">
+          <label>性别：</label>
+          <div class="right"><input type="radio" name="sex" value="male" checked />男
+            <input type="radio" name="sex" value="female" />女</div>
+        </div>
+        <div class="city">
           <label>城市：</label>
-          <select class="city" name="city">
+          <div class="right">
+            <select class="city" name="city">
                     <option selected>北京</option>
                     <option>上海</option>
                     <option>广州</option>
                 </select>
-        </p>
-        <p>
+          </div>
+        </div>
+        <div class="hobby">
           <label>爱好：</label>
-          <input type="checkbox">运动
-          <input type="checkbox">艺术
-          <input type="checkbox">科学
-        </p>
-        <p>
+          <div class="right">
+            <input type="checkbox">运动
+            <input type="checkbox">艺术
+            <input type="checkbox">科学
+          </div>
+        </div>
+        <div class="info">
           <label>个人描述：</label>
-          <textarea>这是一个多行输入框，输入您的个人描述</textarea>
-        </p>
-        <input type="submit" value="确认提交">
+          <div class="right">
+            <textarea>这是一个多行输入框，输入您的个人描述</textarea>
+          </div>
+        </div>
+        <input class="submit" type="submit" value="确认提交">
       </form>
     </div>
     <div class="footer">版权所有©</div>
