@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#square {
+  width: 400px;
+  height: 200px;
+  z-index: -1;
+
+  position: relative;
+  margin-left: 50vw;
+  margin-top: 50vh;
+  top: -100px;
+  left: -200px;
+  background: #ccc;
+  overflow: hidden;
+}
+
+.circle {
+  background: #fc0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+#circle1 {
+  position: absolute;
+  left: -50px;
+  top: -50px;
+}
+
+#circle2 {
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+}
