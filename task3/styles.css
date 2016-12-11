@@ -1,0 +1,64 @@
+.container {
+  position: relative;
+  background: #eee;
+  outline: 1px solid #999;
+  padding: 20px 200px 20px 200px;
+  overflow: auto;
+}
+
+.left, .right, .middle {
+  float: left;
+  position: relative;
+}
+
+.left {
+  margin-left: -100%;
+  left: -180px;
+  width: 160px;
+  height: 80px;
+  background: white;
+  padding: 20px;
+  outline: 1px solid #999;
+}
+
+.left img {
+  float: left;
+}
+
+.left span {
+  font-size: 12px;
+  position: relative;
+  left: 10px;
+  text-align: center;
+}
+
+.middle {
+  width: 100%;
+  left: 40px;
+  background: white;
+  outline: 1px solid #999;
+}
+
+.middle .text {
+  padding: 20px;
+}
+
+.right {
+  background: white;
+  width: 80px;
+  right: -280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-left: -220px;
+  outline: 1px solid #999;
+}
+
+.right div {
+  padding-top: 20px;
+}
+
+.right div img {
+  outline: 1px solid #999;
+}
