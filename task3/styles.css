@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .container {
   min-width: 200px;
   position: relative;
@@ -48,18 +53,15 @@
   background: white;
   width: 80px;
   right: -280px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 0px;
-  padding-bottom: 20px;
+  padding: 0px 20px;
   margin-left: -220px;
   outline: 1px solid #999;
 }
 
-.right div {
-  padding-top: 20px;
-}
-
-.right div img {
+.right img {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 80px;
   outline: 1px solid #999;
 }
