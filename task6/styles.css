@@ -1,0 +1,56 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  background: gray;
+}
+
+.outline {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  background: white;
+  width: 980px;
+  height: 1386px;
+}
+
+.header, .content, .footer {
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+/* 顶部 */
+.header {
+  height: 63px;
+  border-bottom: 2px solid #938e8c;
+}
+
+.header-box {
+  height: 100%;
+  width: 110px;
+  background: #d45d5c;
+}
+
+.header-box span {
+  position: absolute;
+  left: 52px;
+  top: 46px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.header-date {
+  position: absolute;
+  left: 894px;
+  top: 46px;
+  color: #d45d5c;
+  font-size: 12px;
+}
+.content {
+  background: #eee;
+  height: 1263px;
+}
+
+.footer {
+  height: 59px;
+  border-top: 1px solid black;
+}
