@@ -81,6 +81,126 @@ body, html {
   opacity: 0.4;
 }
 
+.session {
+  position: absolute;
+  top: 439px;
+  /*background: green;*/
+}
+
+.session .title {
+  margin-top: 0;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.session p {
+  position: relative;
+  top: -10px;
+  font-size: 12px;
+  margin: 16px 0;
+}
+
+#session1 {
+  left: 44px;
+  width: 228px;
+}
+
+#session1 .title {
+  color: #418c59;
+}
+
+#session1 p {
+  color: #767777;
+}
+
+#session2 {
+  left: 299px;
+  width: 204px;
+}
+
+#session2 .title {
+  color: #d2994f;
+}
+
+#session2 p {
+  color: #231815;
+  opacity: 0.7;
+}
+
+#session3 {
+  left: 532px;
+  width: 131px;
+}
+
+#session3 .title {
+  color: #cc7680;
+}
+
+#session3 p {
+  color: #767777;
+}
+
+#session3 p .sp {
+  color: #cd4a48;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.about {
+  position: absolute;
+  left: 733px;
+  top: 98px;
+  width: 203px;
+  height: 301px;
+  border-top: 2px solid #cc8091;
+}
+
+.about p {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.about .p1 {
+  top: 15px;
+  font-size: 24px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.about .p2 {
+  top: 72px;
+  font-size: 12px;
+  color: #676767;
+}
+
+.about .p3 {
+  top: 138px;
+  font-size: 116px;
+  color: #75b86b;
+  font-style: italic;
+}
+
+.about .p4 {
+  top: 256px;
+  font-size: 55px;
+  color: #cc8091;
+}
+
+.about .p5 {
+  left: 90px;
+  top: 277px;
+  font-size: 21px;
+  color: #cc8091;
+}
+
+.about .p6 {
+  left: 90px;
+  top: 293px;
+  font-size: 12px;
+  color: #662318;
+}
+
 .content {
   background: #eee;
   height: 1263px;
